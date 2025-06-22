@@ -188,6 +188,10 @@ The `combine_golden_RAG_dataset.py` script merges:
 
 This creates a comprehensive evaluation dataset for further analysis.
 
+## Phase 5: DeepEval Comprehensive Evaluation
+
+The combined dataset undergoes comprehensive evaluation using DeepEval metrics to assess RAG component performance. This process is detailed in the companion document: **DeepEval_RAG_Evaluation_Guide.md**
+
 ## File Structure
 
 ```
@@ -250,8 +254,12 @@ python combine_golden_RAG_dataset.py \
    - Fast embedding generation
    - Efficient reranking operations
 
-Later I  Implemented DeepEval  metrics for systematic quality assessment (refer DeepEval Folder) using this created Datasets for both SAP ABAP classes and Reports .
+## Future Enhancements
 
+1. **Automated Evaluation Metrics**: Implement RAGAS metrics for systematic quality assessment
+2. **Multi-Collection Evaluation**: Cross-collection query handling
+3. **Conversation Flow Testing**: Extended multi-turn conversation scenarios
+4. **Performance Optimization**: Query caching and batch processing improvements
 
 ## Conclusion
 
