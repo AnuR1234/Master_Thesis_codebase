@@ -6,7 +6,7 @@ Fine-tuned Meta-Llama-3.1-8B-Instruct model for generating comprehensive technic
 
 The fine-tuned weights are available on Hugging Face:
 
-**(Anu123/llama3-8b-lora-finetune)**
+**[Model on Hugginface](https://huggingface.co/Anu123/llama3-8b-lora-finetune)**
 
 ## Architecture
 - **Base Model**: Meta-Llama-3.1-8B-Instruct
