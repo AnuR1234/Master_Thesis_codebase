@@ -113,8 +113,8 @@ cd 1-rag-architectures/open-source-rag/
 - **Vector Database**: Qdrant
 - **LLMs**: Claude 3 (Bedrock), LLaMA 2/3, open models
 - **Embeddings**: OpenAI, SAP AI Core, Sentence Transformers
-- **Frameworks**: LangChain, Streamlit, FastAPI
-- **Evaluation**: RAGAS, custom metrics
+- **Frameworks**:  Streamlit
+- **Evaluation**: DeepEval, custom metrics
 
 ## Research Contributions
 
@@ -127,11 +127,11 @@ cd 1-rag-architectures/open-source-rag/
 
 If you use this work in your research, please cite:
 ```bibtex
-@mastersthesis{yourname2024rag,
-  title={Retrieval-Augmented Generation for SAP ABAP Documentation: A Comparative Study},
-  author={Your Name},
-  year={2024},
-  school={Your University}
+@mastersthesis{AnureddyMasterThesis,
+  title={Leveraging Large Language Models and Retrieval Augmented Generation Systems for Automated Documentation and Retrieval of Custom ABAP Code in Legacy SAP Systems},
+  author={Anu Reddy},
+  year={2025},
+  school={Heidelberg University}
 }
 ```
 
@@ -141,8 +141,8 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ## Acknowledgments
 
-- Thesis advisor: [Advisor Name]
-- SAP ABAP documentation team
+- Thesis advisor: [Prof. Stefan Riezler and Dr. Felix Aller ]
+- cbs Consulting GmbH (SAP ABAP documentation)
 - Open-source community contributors
 
 ---
