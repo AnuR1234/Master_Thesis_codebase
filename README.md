@@ -37,11 +37,19 @@ C:.
 
 - **Closed-Source RAG**: Leverages Amazon Bedrock (Claude 3), SAP AI Core, and OpenAI embeddings
 - **Open-Source RAG**: Utilizes open models like Mistral and Sentence Transformers for embeddings.
+- **Golden-Dataset_creation**: Helper utility to help create a golden dataset and evaluate an open-source and closed Retrieval-Augmented Generation (RAG) system for SAP ABAP code documentation.
+- **Deep-Eval Framework**:Evaluate RAG system performance using DeepEval metrics to assess retrieval quality, generation accuracy, and safety. 
 
 *See respective README files in each subdirectory for detailed implementation details.*
-*[Open-Source-Implementation](RAG Architectures/Open-Source RAG/open-RAG-implementation-guidelines.md)
+*[Open-Source-Implementation](RAG Architectures/Open-Source RAG/open-RAG-implementation-guidelines.md)*
+*[Closed-Source-Implementation](RAG Architectures/Closed-RAG Implementation/closed-source-RAG-implementation-guideline.md)*
+*[Golden-Dataset_creation_open_source_RAG](RAG Architectures/Open-Source RAG/Golden_Dataset_creation_and_evaluation_guidelines.md)*
+*[Golden-Dataset_creation_closed_source_RAG](RAG Architectures/Closed-RAG Implementation/Golden_Dataset_creation_and_eval_guideline.md)*
+*[Deep_Eval-Implementation_closed_RAG](RAG Architectures/Closed-RAG Implementation/DeepEval/DeepEval_RAG_Evaluation_Guide.md)*
+*[Deep_Eval-Implementation_open_RAG](RAG Architectures/Open-Source RAG/DeepEval/DeepEval_guideline.md)*
 
-### 2. Evaluations (All the deatiled results in pdf) 
+
+### 2. Evaluations (All the detailed results in pdf) 
 
 Comprehensive comparison of both architectures across:
 - Response quality (groundedness, relevance, hallucination)
@@ -58,8 +66,8 @@ Experiments with fine-tuning LLaMA models on SAP ABAP documentation:
 - Fine-tuning methodology
 - Performance comparison with base models
 
-*Setup instructions in `3-fine-tuned-llama/setup/README.md`*
-*Evaluation  instructions in `3-fine-tuned-llama/setup/README.md`*
+*[Fine_tuning_setup](Fine-tuning/Fine-tune-llama-guidance.md)*
+*[Evaluation_setup](Fine-tuning/Fine-tune-llama-guidance.md)*
 
 ### 4. RAG Preprocessing Setup
 
@@ -68,8 +76,8 @@ Investigation of optimal preprocessing strategies:
 - **Retrieval Strategies**: Dense vs sparse vs hybrid approaches
 - **Parameter Tests**: Optimization of retrieval parameters (top-k, reranking, weights)
 
-*Results documented in respective subdirectories*
-
+*[chunking_setup](RAG_preprocess_setup/chunking-guidelines.md)*
+*[embedding_setup](RAG_preprocess_setup/Embeddings_generation/embeddings_generation_guidelines.md)*
 ## Infrastructure
 
 All experiments were conducted on:
