@@ -1,10 +1,10 @@
-# Retrieval-Augmented Generation for SAP ABAP Documentation: A Comparative Study
+# Leveraging Large Language Models and Retrieval Augmented Generation Systems for Automated Documentation and Retrieval of Custom ABAP Code in Legacy SAP Systems
 
 **Master Thesis Project**
 
 ## Overview
 
-This repository contains the implementation and evaluation of different Retrieval-Augmented Generation (RAG) architectures for SAP ABAP code documentation, developed as part of my master thesis. The project explores both closed-source and open-source approaches, evaluates their performance, and includes experiments with fine-tuned language models.
+This repository contains the implementation and evaluation of different Retrieval-Augmented Generation (RAG) architectures for SAP ABAP code documentation, developed as part of my master's thesis. The project explores both closed-source and open-source approaches, evaluates their performance, and includes experiments with fine-tuned language models.
 
 ## Repository Structure
 
