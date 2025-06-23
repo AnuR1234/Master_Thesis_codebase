@@ -320,7 +320,6 @@ The `combine_golden_RAG_dataset.py` script merges:
 - Mandatory document citations
 
 ### 2. Generation Control
-- Ultra-low temperature (0.05)
 - Constrained token selection
 - No beam search to reduce creativity
 
