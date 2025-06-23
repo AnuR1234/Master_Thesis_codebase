@@ -29,8 +29,7 @@ C:.
 1. **Compare closed-source vs open-source RAG architectures** for enterprise documentation
 2. **Evaluate performance metrics** including accuracy, latency, and cost
 3. **Explore fine-tuning benefits** using LLaMA models on SAP ABAP data
-4. **Optimize preprocessing strategies** for improved retrieval quality
-
+4. **Optimize preprocessing strategies** Used these preprocessed parameters in implementation of Closed and Open-Sourced RAG Systems
 ## Key Components
 
 ### 1. RAG Architectures
