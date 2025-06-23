@@ -9,29 +9,122 @@ This repository contains the implementation and evaluation of different Retrieva
 ## Repository Structure
 
 ```
-.
-├── README.md                           # This file
-├── 1-rag-architectures/               # RAG implementations
-│   ├── closed-source-rag/             # Enterprise RAG with commercial APIs
-│   │   └── README.md                  # Detailed setup and usage instructions
-│   └── open-source-rag/               # Community RAG with open models
-│       └── README.md                  # Detailed setup and usage instructions
-├── 2-evaluations/                     # Comparative analysis
-│   ├── README.md                      # Evaluation methodology and results
-│   ├── metrics/                       # Performance metrics
-│   └── benchmarks/                    # Test datasets and results
-├── 3-fine-tuned-llama/               # LLaMA fine-tuning experiments
-│   ├── setup/                         # Fine-tuning configuration
-│   │   └── README.md                  # Fine-tuning instructions
-│   └── evaluation/                    # Model evaluation results
-│       └── README.md                  # Performance analysis
-└── 4-rag-preprocessing-setup/        # Preprocessing experiments
-    ├── chunking/                      # Document chunking strategies
-    │   └── README.md                  # Chunking analysis
-    ├── retrieval-strategies/          # Different retrieval approaches
-    │   └── README.md                  # Strategy comparison
-    └── parameter-tests/               # Hyperparameter optimization
-        └── README.md                  # Parameter tuning results
+C:.
+│   README.md
+│
+├───.qodo
+├───Evaluations
+│       .gitkeep
+│       Experiment on generation quality of closed and open source RAG systems.pdf
+│       List_of_prompts_used.pdf
+│       Open_source_vs_closed_RAG_final.pdf
+│       pair_wise_evaluation_LLM_as_judge_11_6.pdf
+│       Task 2_ Chunking and Embedding Strategies Experimentations .pdf
+│       Task 3-comparing different embedding models and retrieval techniques.pdf
+│
+├───Fine-tuning
+│   │   .gitkeep
+│   │   Fine-tune-llama-guidance.md
+│   │
+│   ├───Evaluation
+│   │       .gitkeep
+│   │       automated_metrics.py
+│   │       automatic_metrics.py
+│   │       data_preprocessor.py
+│   │       enhanced_abap_metrics.py
+│   │       Evaluation-guideline.md
+│   │       Evaluation-guidelines.md
+│   │       evaluation_report.md
+│   │       llm_evaluator.py
+│   │       main_evaluator.py
+│   │       main_eval_test.py
+│   │       model_inference.py
+│   │       pdsqi_abap_evaluator.py
+│   │
+│   └───Fine_tune_code
+│           .gitkeep
+│           convert_llama_tf_to_pt.py
+│           deepspeed_config_z3_qlora.yaml
+│           run.sh
+│           setup_env.sh
+│           train_llama3_lora.py
+│           utils_llama3.py
+│
+├───RAG Architectures
+│   │   dummy.md
+│   │   requirements.txt
+│   │
+│   ├───Closed-RAG Implementation
+│   │   │   .gitkeep
+│   │   │   claude.env
+│   │   │   cli.py
+│   │   │   closed-source-RAG-implementation-guideline.md
+│   │   │   combine_golden_RAG_dataset.py
+│   │   │   config.py
+│   │   │   embedding.py
+│   │   │   gemini_context_filter.py
+│   │   │   generator.py
+│   │   │   golden_dataset.py
+│   │   │   Golden_Dataset_creation_and_eval_guideline.md
+│   │   │   only_simle_qns.py
+│   │   │   pipeline.py
+│   │   │   query_enhancer.py
+│   │   │   RAG_running_golden_DS_eval.py
+│   │   │   retriever.py
+│   │   │   stream_lit.py
+│   │   │
+│   │   └───DeepEval
+│   │           .gitkeep
+│   │           comprehensive_thesis_eval_final_new_metrics_with_API_costs.py
+│   │           DeepEval_RAG_Evaluation_Guide.md
+│   │           eval_setup_for_simple_qns_only_v2.py
+│   │
+│   └───Open-Source RAG
+│       │   .gitkeep
+│       │   combine_golden_RAG_dataset.py
+│       │   combine_retrieved_docs.py
+│       │   config.py
+│       │   debug_pipeline.py
+│       │   embedding.py
+│       │   generator.py
+│       │   Golden_Dataset_creation_and_evaluation_guidelines.md
+│       │   kill_process.py
+│       │   memory_cleanup.py
+│       │   model_downloader.py
+│       │   only_simle_qns.py
+│       │   open-RAG-implementation-guidelines.md
+│       │   pipeline.py
+│       │   query_enhancer.py
+│       │   RAG_run_on_Golden_ds.py
+│       │   retriever.py
+│       │   rtx6000_memory_manager.py
+│       │   run_system.py
+│       │   streamlit_app_RAG.py
+│       │   timing_utils.py
+│       │
+│       └───DeepEval
+│               .gitkeep
+│               comprehensive_thesis_eval_final_new_metrics_with_API_costs.py
+│               DeepEval_guideline.md
+│               eval_setup_for_simple_qns_only_v2.py
+│
+└───RAG_preprocess_setup
+    │   .gitkeep
+    │   base_chunker.py
+    │   chunking-guidelines.md
+    │   chunking_main.py
+    │   doc_chunker.py
+    │   Experiment2_Exploring_Different_Embeddings_and_Retrieval_Techniques.ipynb
+    │   Experiment_3_Optimizing_Generation_Parameters_for_High_Quality_RAG_Responses_in_SAP_ABAP_Code_Documentation.py
+    │   instance_manager.py
+    │   llm_chunker.py
+    │   rename_abap_files.py
+    │
+    └───Embeddings_generation
+            .gitkeep
+            embeddings_generation_guidelines.md
+            embedding_full_dataset_on_disk_openai_BM25.py
+            embedding_full_dataset_on_disk_open_source_e5_BM25.py
 ```
 
 ## Thesis Objectives
