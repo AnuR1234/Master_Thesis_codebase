@@ -2,6 +2,12 @@
 
 This repository contains the evaluation framework for the language models I used in my master's thesis using ABAP documentation generation. The evaluation will ultimately compare a fine-tuned Meta-Llama-3.1-8B-Instruct language model against a base Meta-Llama-3.1-8B-Instruct and Gemini 2.0 Flash language models while keeping the context length constrained to a fair 8K.
 
+## 🤗 Pre-trained Model
+
+The fine-tuned weights are available on Hugging Face:
+
+**[Anu123/llama3-8b-lora-finetune](https://huggingface.co/Anu123/llama3-8b-lora-finetune)**
+
 ## Overview
 
 The framework supports a full evaluation pipeline about how well the language models can be employed to generate technical documentation for SAP ABAP code. The evaluation addresses a growing need for automated documentation generation and usage in enterprise software development, specifically in legacy code bases like SAP ABAP.
