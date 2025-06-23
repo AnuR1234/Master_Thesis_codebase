@@ -1,6 +1,6 @@
 # ABAP Documentation Evaluation Framework
 
-This repository contains the evaluation framework for the language models I used in my master's thesis using ABAP documentation generation. The evaluation will ultimately compare a fine-tuned Llama 2.5 8B language model against a base Llama 2.5 8B and Gemini 2.0 Flash language models while keeping the context length constrained to a fair 8K.
+This repository contains the evaluation framework for the language models I used in my master's thesis using ABAP documentation generation. The evaluation will ultimately compare a fine-tuned Meta-Llama-3.1-8B-Instruct language model against a base Meta-Llama-3.1-8B-Instruct and Gemini 2.0 Flash language models while keeping the context length constrained to a fair 8K.
 
 ## Overview
 
@@ -37,9 +37,14 @@ The framework supports a full evaluation pipeline about how well the language mo
    nltk.download('punkt')
    nltk.download('punkt_tab')
    ```
+## 🤗 Pre-trained Model
+
+The fine-tuned weights are available on Hugging Face:
+
+**[Anu123/llama3-8b-lora-finetune](https://huggingface.co/Anu123/llama3-8b-lora-finetune)**
 
 3. **Prepare Your Models**
-   - Download base Llama 2.5 8B model
+   - Download base Meta-Llama-3.1-8B-Instruct **([https://huggingface.co/Anu123/llama3-8b-lora-finetune](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct))**
    - Ensure your fine-tuned LoRA adapter is available
    - Get API keys for Gemini and Grok
 
