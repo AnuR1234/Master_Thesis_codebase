@@ -1,0 +1,340 @@
+🔍 GEMINI MODEL AVAILABILITY CHECKER
+============================================================
+✅ google-generativeai library imported successfully
+✅ Configured with API key: 
+============================================================
+AVAILABLE GEMINI MODELS
+============================================================
+
+📋 Model: models/embedding-gecko-001
+   Supported methods: ['embedText', 'countTextTokens']
+   ❌ Does not support generateContent
+
+📋 Model: models/gemini-1.0-pro-vision-latest
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.0-pro-vision-latest'
+
+📋 Model: models/gemini-pro-vision
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-pro-vision'
+
+📋 Model: models/gemini-1.5-pro-latest
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-pro-latest'
+
+📋 Model: models/gemini-1.5-pro-001
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-pro-001'
+
+📋 Model: models/gemini-1.5-pro-002
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-pro-002'
+
+📋 Model: models/gemini-1.5-pro
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-pro'
+
+📋 Model: models/gemini-1.5-flash-latest
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-latest'
+
+📋 Model: models/gemini-1.5-flash-001
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-001'
+
+📋 Model: models/gemini-1.5-flash-001-tuning
+   Supported methods: ['generateContent', 'countTokens', 'createTunedModel']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-001-tuning'
+
+📋 Model: models/gemini-1.5-flash
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash'
+
+📋 Model: models/gemini-1.5-flash-002
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-002'
+
+📋 Model: models/gemini-1.5-flash-8b
+   Supported methods: ['createCachedContent', 'generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-8b'
+
+📋 Model: models/gemini-1.5-flash-8b-001
+   Supported methods: ['createCachedContent', 'generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-8b-001'
+
+📋 Model: models/gemini-1.5-flash-8b-latest
+   Supported methods: ['createCachedContent', 'generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-8b-latest'
+
+📋 Model: models/gemini-1.5-flash-8b-exp-0827
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-8b-exp-0827'
+
+📋 Model: models/gemini-1.5-flash-8b-exp-0924
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-1.5-flash-8b-exp-0924'
+
+📋 Model: models/gemini-2.5-pro-exp-03-25
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.5-pro-exp-03-25'
+
+📋 Model: models/gemini-2.5-pro-preview-03-25
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.5-pro-preview-03-25'
+
+📋 Model: models/gemini-2.5-flash-preview-04-17
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.5-flash-preview-04-17'
+
+📋 Model: models/gemini-2.5-flash-preview-05-20
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.5-flash-preview-05-20'
+
+📋 Model: models/gemini-2.5-flash-preview-04-17-thinking
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.5-flash-preview-04-17-thinking'
+
+📋 Model: models/gemini-2.5-pro-preview-05-06
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.5-pro-preview-05-06'
+
+📋 Model: models/gemini-2.0-flash-exp
+   Supported methods: ['generateContent', 'countTokens', 'bidiGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-exp'
+
+📋 Model: models/gemini-2.0-flash
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash'
+
+📋 Model: models/gemini-2.0-flash-001
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-001'
+
+📋 Model: models/gemini-2.0-flash-exp-image-generation
+   Supported methods: ['generateContent', 'countTokens', 'bidiGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-exp-image-generation'
+
+📋 Model: models/gemini-2.0-flash-lite-001
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-lite-001'
+
+📋 Model: models/gemini-2.0-flash-lite
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-lite'
+
+📋 Model: models/gemini-2.0-flash-preview-image-generation
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-preview-image-generation'
+
+📋 Model: models/gemini-2.0-flash-lite-preview-02-05
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-lite-preview-02-05'
+
+📋 Model: models/gemini-2.0-flash-lite-preview
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-lite-preview'
+
+📋 Model: models/gemini-2.0-pro-exp
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-pro-exp'
+
+📋 Model: models/gemini-2.0-pro-exp-02-05
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-pro-exp-02-05'
+
+📋 Model: models/gemini-exp-1206
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-exp-1206'
+
+📋 Model: models/gemini-2.0-flash-thinking-exp-01-21
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-thinking-exp-01-21'
+
+📋 Model: models/gemini-2.0-flash-thinking-exp
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-thinking-exp'
+
+📋 Model: models/gemini-2.0-flash-thinking-exp-1219
+   Supported methods: ['generateContent', 'countTokens', 'createCachedContent', 'batchGenerateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.0-flash-thinking-exp-1219'
+
+📋 Model: models/gemini-2.5-flash-preview-tts
+   Supported methods: ['countTokens', 'generateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.5-flash-preview-tts'
+
+📋 Model: models/gemini-2.5-pro-preview-tts
+   Supported methods: ['countTokens', 'generateContent']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemini-2.5-pro-preview-tts'
+
+📋 Model: models/learnlm-2.0-flash-experimental
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'learnlm-2.0-flash-experimental'
+
+📋 Model: models/gemma-3-1b-it
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemma-3-1b-it'
+
+📋 Model: models/gemma-3-4b-it
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemma-3-4b-it'
+
+📋 Model: models/gemma-3-12b-it
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemma-3-12b-it'
+
+📋 Model: models/gemma-3-27b-it
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemma-3-27b-it'
+
+📋 Model: models/gemma-3n-e4b-it
+   Supported methods: ['generateContent', 'countTokens']
+   ✅ Supports generateContent - Can be used!
+   💡 Use this name in code: 'gemma-3n-e4b-it'
+
+📋 Model: models/embedding-001
+   Supported methods: ['embedContent']
+   ❌ Does not support generateContent
+
+📋 Model: models/text-embedding-004
+   Supported methods: ['embedContent']
+   ❌ Does not support generateContent
+
+📋 Model: models/gemini-embedding-exp-03-07
+   Supported methods: ['embedContent', 'countTextTokens']
+   ❌ Does not support generateContent
+
+📋 Model: models/gemini-embedding-exp
+   Supported methods: ['embedContent', 'countTextTokens']
+   ❌ Does not support generateContent
+
+📋 Model: models/aqa
+   Supported methods: ['generateAnswer']
+   ❌ Does not support generateContent
+
+📋 Model: models/imagen-3.0-generate-002
+   Supported methods: ['predict']
+   ❌ Does not support generateContent
+
+📋 Model: models/veo-2.0-generate-001
+   Supported methods: ['predictLongRunning']
+   ❌ Does not support generateContent
+
+📋 Model: models/gemini-2.5-flash-preview-native-audio-dialog
+   Supported methods: ['countTokens', 'bidiGenerateContent']
+   ❌ Does not support generateContent
+
+📋 Model: models/gemini-2.5-flash-preview-native-audio-dialog-rai-v3
+   Supported methods: ['countTokens', 'bidiGenerateContent']
+   ❌ Does not support generateContent
+
+📋 Model: models/gemini-2.5-flash-exp-native-audio-thinking-dialog
+   Supported methods: ['countTokens', 'bidiGenerateContent']
+   ❌ Does not support generateContent
+
+📋 Model: models/gemini-2.0-flash-live-001
+   Supported methods: ['bidiGenerateContent', 'countTokens']
+   ❌ Does not support generateContent
+
+============================================================
+SUMMARY
+============================================================
+Models that support generateContent (45 found):
+  - gemini-1.0-pro-vision-latest
+  - gemini-pro-vision
+  - gemini-1.5-pro-latest
+  - gemini-1.5-pro-001
+  - gemini-1.5-pro-002
+  - gemini-1.5-pro
+  - gemini-1.5-flash-latest
+  - gemini-1.5-flash-001
+  - gemini-1.5-flash-001-tuning
+  - gemini-1.5-flash
+  - gemini-1.5-flash-002
+  - gemini-1.5-flash-8b
+  - gemini-1.5-flash-8b-001
+  - gemini-1.5-flash-8b-latest
+  - gemini-1.5-flash-8b-exp-0827
+  - gemini-1.5-flash-8b-exp-0924
+  - gemini-2.5-pro-exp-03-25
+  - gemini-2.5-pro-preview-03-25
+  - gemini-2.5-flash-preview-04-17
+  - gemini-2.5-flash-preview-05-20
+  - gemini-2.5-flash-preview-04-17-thinking
+  - gemini-2.5-pro-preview-05-06
+  - gemini-2.0-flash-exp
+  - gemini-2.0-flash
+  - gemini-2.0-flash-001
+  - gemini-2.0-flash-exp-image-generation
+  - gemini-2.0-flash-lite-001
+  - gemini-2.0-flash-lite
+  - gemini-2.0-flash-preview-image-generation
+  - gemini-2.0-flash-lite-preview-02-05
+  - gemini-2.0-flash-lite-preview
+  - gemini-2.0-pro-exp
+  - gemini-2.0-pro-exp-02-05
+  - gemini-exp-1206
+  - gemini-2.0-flash-thinking-exp-01-21
+  - gemini-2.0-flash-thinking-exp
+  - gemini-2.0-flash-thinking-exp-1219
+  - gemini-2.5-flash-preview-tts
+  - gemini-2.5-pro-preview-tts
+  - learnlm-2.0-flash-experimental
+  - gemma-3-1b-it
+  - gemma-3-4b-it
+  - gemma-3-12b-it
+  - gemma-3-27b-it
+  - gemma-3n-e4b-it
+
+============================================================
+TESTING FIRST AVAILABLE MODEL
+============================================================
+Testing model: gemini-1.0-pro-vision-latest
+❌ Test failed: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+
+🎉 SUCCESS! You have 45 compatible models available.
+Update your code to use one of the available models.
+
