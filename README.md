@@ -36,9 +36,10 @@ C:.
 ### 1. RAG Architectures
 
 - **Closed-Source RAG**: Leverages Amazon Bedrock (Claude 3), SAP AI Core, and OpenAI embeddings
-- **Open-Source RAG**: Utilizes open models via Ollama/HuggingFace and open embeddings
+- **Open-Source RAG**: Utilizes open models like Mistral and Sentence Transformers for embeddings.
 
 *See respective README files in each subdirectory for detailed implementation details.*
+*[Open-Source-Implementation](RAG Architectures/Open-Source RAG/open-RAG-implementation-guidelines.md)
 
 ### 2. Evaluations (All the deatiled results in pdf) 
 
