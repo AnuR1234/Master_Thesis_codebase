@@ -42,7 +42,7 @@ C:.
 
 See respective README files in each subdirectory for detailed implementation details.
 
-[Open_Source_Implementation](RAG Architectures/Open-Source RAG/open-RAG-implementation-guidelines.md)
+*[Open_Source_Implementation](RAG Architectures/Open-Source RAG/open-RAG-implementation-guidelines.md)*
 
 [Closed_Source_Implementation](RAG Architectures/Closed-RAG Implementation/closed-source-RAG-implementation-guideline.md)
 
