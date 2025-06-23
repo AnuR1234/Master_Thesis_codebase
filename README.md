@@ -40,20 +40,7 @@ C:.
 - **Golden-Dataset_creation**: Helper utility to help create a golden dataset and evaluate an open-source and closed Retrieval-Augmented Generation (RAG) system for SAP ABAP code documentation.
 - **Deep-Eval Framework**:Evaluate RAG system performance using DeepEval metrics to assess retrieval quality, generation accuracy, and safety. 
 
-See respective README files in each subdirectory for detailed implementation details.
-
-*[Open_Source_Implementation](RAG_Architectures/Open_Source_RAG/open-RAG-implementation-guidelines.md)*
-
-*[Closed_Source_Implementation](RAG_Architectures/Closed_RAG_Implementation/closed-source-RAG-implementation-guideline.md)*
-
-*[Golden_Dataset_creation_open_source_RAG](RAG_Architectures/Open_Source_RAG/Golden_Dataset_creation_and_evaluation_guidelines.md)*
-
-*[Golden_Dataset_creation_closed_source_RAG](RAG_Architectures/Closed_RAG_Implementation/Golden_Dataset_creation_and_eval_guideline.md)
-
-[Deep_Eval_Implementation_closed_RAG](RAG_Architectures/Closed_RAG_Implementation/DeepEval/DeepEval_RAG_Evaluation_Guide.md)
-
-[Deep_Eval_Implementation_open_RAG](RAG_Architectures/Open_Source_RAG/DeepEval/DeepEval_guideline.md)
-
+See the respective README files in each subdirectory for detailed implementation details.
 
 ### 2. Evaluations (All the detailed results in pdf) 
 
@@ -73,6 +60,7 @@ Experiments with fine-tuning LLaMA models on SAP ABAP documentation:
 - Performance comparison with base models
 
 *[Fine_tuning_setup](Fine-tuning/Fine-tune-llama-guidance.md)*
+
 *[Evaluation_setup](Fine-tuning/Fine-tune-llama-guidance.md)*
 
 ### 4. RAG Preprocessing Setup
@@ -83,6 +71,7 @@ Investigation of optimal preprocessing strategies:
 - **Parameter Tests**: Optimization of retrieval parameters (top-k, reranking, weights)
 
 *[chunking_setup](RAG_preprocess_setup/chunking-guidelines.md)*
+
 *[embedding_setup](RAG_preprocess_setup/Embeddings_generation/embeddings_generation_guidelines.md)*
 ## Infrastructure
 
