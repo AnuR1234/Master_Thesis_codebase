@@ -4,7 +4,8 @@
 
 ## Overview
 
-This repository contains the implementation and evaluation of different Retrieval-Augmented Generation (RAG) architectures for SAP ABAP code documentation, developed as part of my master's thesis. The project explores both closed-source and open-source approaches, evaluates their performance, and includes experiments with fine-tuned language models.
+This repository contains the implementation and evaluation of different Retrieval-Augmented Generation (RAG) architectures for SAP ABAP code documentation, developed as part of my master's thesis. The project explores both closed-source and open-source approaches, evaluates their performance using a triangulated approach, which includes automated
+scoring using the DeepEval framework, comparative evaluations with LLMs as judges, and reviews by expert SAP ABAP developers. It includes experiments with fine-tuned open-source language models for generating technical documentation of ABAP code files and their evaluation with the base model and its equivalent state-of-the-art closed model.
 
 ## Repository Structure
 
