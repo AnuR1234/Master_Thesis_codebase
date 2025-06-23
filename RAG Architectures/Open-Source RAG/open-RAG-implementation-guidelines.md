@@ -44,6 +44,7 @@ streamlit run streamlit_app_RAG.py
 | `memory_cleanup.py` |(helper module) Memory utilities and cleanup |
 | `timing_utils.py` |(helper module) Performance timing and monitoring |
 | `kill_process.py` |(helper module) GPU process management |
+| `model_downloader.py` |(helper module) To downlaod the Open-Source Models Locally |
 
 ## Key Features
 - ✅ **Anti-hallucination protection** with confidence scoring
