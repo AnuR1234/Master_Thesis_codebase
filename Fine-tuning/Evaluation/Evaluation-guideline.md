@@ -1,6 +1,6 @@
 # ABAP Documentation Evaluation Framework
 
-This repository contains the evaluation framework for the language models I used in my master's thesis using ABAP documentation generation. The evaluation will ultimately compare a fine-tuned Llama 2.5 8B language model against a base Llama 2.5 8B and Gemini 2.0 Flash language models while keeping the context length constrained to a fair 8K.
+This repository contains the evaluation framework for the language models I used in my master's thesis using ABAP documentation generation. The evaluation will ultimately compare a fine-tuned Meta-Llama-3.1-8B-Instruct language model against a base Meta-Llama-3.1-8B-Instruct and Gemini 2.0 Flash language models while keeping the context length constrained to a fair 8K.
 
 ## Overview
 
