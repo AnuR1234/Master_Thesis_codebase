@@ -42,17 +42,17 @@ C:.
 
 See respective README files in each subdirectory for detailed implementation details.
 
-*[Open_Source_Implementation](RAG Architectures/Open-Source RAG/open-RAG-implementation-guidelines.md)*
+*[Open_Source_Implementation](RAG_Architectures/Open_Source_RAG/open-RAG-implementation-guidelines.md)*
 
-[Closed_Source_Implementation](RAG Architectures/Closed-RAG Implementation/closed-source-RAG-implementation-guideline.md)
+*[Closed_Source_Implementation](RAG_Architectures/Closed_RAG_Implementation/closed-source-RAG-implementation-guideline.md)*
 
-[Golden_Dataset_creation_open_source_RAG](RAG Architectures/Open-Source RAG/Golden_Dataset_creation_and_evaluation_guidelines.md)
+*[Golden_Dataset_creation_open_source_RAG](RAG_Architectures/Open_Source_RAG/Golden_Dataset_creation_and_evaluation_guidelines.md)*
 
-[Golden_Dataset_creation_closed_source_RAG](RAG Architectures/Closed-RAG Implementation/Golden_Dataset_creation_and_eval_guideline.md)
+*[Golden_Dataset_creation_closed_source_RAG](RAG_Architectures/Closed_RAG_Implementation/Golden_Dataset_creation_and_eval_guideline.md)
 
-[Deep_Eval_Implementation_closed_RAG](RAG Architectures/Closed-RAG Implementation/DeepEval/DeepEval_RAG_Evaluation_Guide.md)
+[Deep_Eval_Implementation_closed_RAG](RAG_Architectures/Closed_RAG_Implementation/DeepEval/DeepEval_RAG_Evaluation_Guide.md)
 
-[Deep_Eval_Implementation_open_RAG](RAG Architectures/Open-Source RAG/DeepEval/DeepEval_guideline.md)
+[Deep_Eval_Implementation_open_RAG](RAG_Architectures/Open_Source_RAG/DeepEval/DeepEval_guideline.md)
 
 
 ### 2. Evaluations (All the detailed results in pdf) 
