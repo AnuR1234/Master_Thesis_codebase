@@ -49,8 +49,12 @@ Comprehensive comparison of both architectures across:
 - Performance metrics (latency, throughput)
 - Cost analysis
 - Scalability considerations
-- many more.. 
-*Detailed results available in `2-evaluations/`*
+- many more..
+- Using LLM as Judges for pair-wise comparisons 
+  
+*Detailed results  available in `2-evaluations/`*
+
+*[LLM_as_Judge_eval_setup](Evaluations/Pair_test_LLM_as_Judges/LLM_as_judge_guidelines.md)*
 
 ### 3. Fine-tuned LLaMA
 
